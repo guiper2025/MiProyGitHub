@@ -4,6 +4,7 @@ a = 3
 b = 5
 c = 6
 d = 8
+e = 10
 
-e = a + b + c + d
-print(f'Hola, e es igual a {e} y {helper.get_str()}')
+f = a + b + c + d + e
+print(f'Hola, f es igual a {f} o {helper.get_str()}')
